@@ -54,7 +54,7 @@ GameObject:
   - component: {fileID: 4252057409570498}
   - component: {fileID: 250598796546784954}
   - component: {fileID: 61105344191190274}
-  - component: {fileID: 114059273167136758}
+  - component: {fileID: 114529468867628198}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -176,7 +176,7 @@ BoxCollider2D:
   m_Offset: {x: -1.218139, y: 0.0736866}
   serializedVersion: 2
   m_Size: {x: 2.1287396, y: 3.2948387}
---- !u!114 &114059273167136758
+--- !u!114 &114529468867628198
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

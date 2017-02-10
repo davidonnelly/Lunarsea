@@ -18,7 +18,7 @@ public class Rock : MonoBehaviour {
 		if (onTimeDown)
 		{
 			mTimer += Time.deltaTime;
-			if (mTimer >= 0.5)
+			if (mTimer >= 1)
 			{
 				onTimeDown = false;
 			}
@@ -27,7 +27,7 @@ public class Rock : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D other)
 	{
-		if (other.gameObject.CompareTag ("Player") && !onTimeDown) {
+		if (other.gameObject.CompareTag ("Player")) {
 			onTimeDown = true;
 			other.gameObject.GetComponent<Boat> ().TakeDamage ();
 			AudioController.controller.BoatHitsRock ();
